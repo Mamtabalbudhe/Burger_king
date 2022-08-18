@@ -1,0 +1,462 @@
+li{
+   display: inline; 
+    font-size: 22px;
+    /* list-style: none; */
+    font-weight: bolder;
+    
+    text-align: right;
+    margin-right: -200px;
+    margin-left: 240px;
+    cursor: pointer;
+    color: greenyellow;
+    /* position: relative; */
+}
+li{
+    text-decoration: none;
+    color: rgb(168, 193, 29);
+}
+li:hover{
+    /* background-color: rgb(209, 147, 66); */
+    background:linear-gradient(orange,black,rgb(99, 220, 99));
+    box-shadow: 2px;
+    color: rgb(222, 20, 20);
+}
+ul{
+    /* gap: 10px; */
+    text-align: center;
+    margin-top: -28px;
+}
+body{
+    margin-left: 30px;
+    margin-right: 40px;
+    /* font-family: 'open sans', sans-serif; */
+}
+
+nav{
+     position: absolute;
+     /* position: fixed; */
+     /* margin-right: -0px; */
+     /* margin-left: -98px; */
+     /* background: url('./img/page-header.jpg'); */
+     background-color: black;
+     height: 90px;
+     width: 99.9%;
+     margin-top: -5px;
+    margin-right: -30px;
+    margin-left: -29px;
+    text-align: left;
+}
+span{
+    margin-top: 400px;
+    margin-left: 20px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 80px;
+    font-family: 'Concert One', cursive;
+    color: rgb(239, 141, 21);
+}
+.bodydiv{
+    position: relative;
+     background: transparent;
+}
+.headtext{
+    top: -10px;
+    text-align: center;
+    margin-top: -10px;
+    height: 625px;
+    width: 99.8%;
+    position: relative;
+}
+h1{
+    margin-top: 150px;
+    margin-left: -590px;
+    height: 100px;
+    font-size: 45px;
+    font-family: 'Concert One', cursive;
+    /* font-weight: bolder; */
+    color: rgb(212, 224, 99)
+}
+h3{
+    margin-top: 210px;
+    margin-left: -590px;
+    color: rgb(237, 242, 244);
+}
+img{
+    margin-top: -80px;
+    width: 100%;
+    height: 627px;
+    background: transparent;
+    position: absolute;
+}
+#viewbtn{
+    border-radius: 6px;
+    margin-left: -590px;
+    width: 130px;
+    height: 45px;
+    background-color: rgb(244, 159, 55);
+}
+#viewbtn:hover{
+    background:none;
+    color: white;
+}
+#bktblbtn{
+    border-radius: 6px;
+    width: 130px;
+    height: 45px;
+    background-color: rgb(77, 210, 110);
+}
+/* middle section */
+.middle{
+    top: -90px;
+    height: 600px;
+    position: relative;
+    background: transparent;
+    background: rgb(244, 241, 241);
+}
+.midtext{
+    margin-left: 200px;
+    position: absolute;
+    top: 40px;
+    color: black;
+}
+h4{
+    margin-left: 6px;
+    font-size: 25px;
+    color: green;
+}
+.span{
+    /* margin-left: 110px; */
+    color: black;
+}
+.p{
+    font-size: 20px;
+    top: -40px;
+}
+.register{
+    position: relative;
+    top: 20px;
+    /* bottom:-10px; */
+    margin-top: 20px;
+    margin-right: 900px;
+    margin-left: 900px;
+    width: 500px;
+    height: 550px;
+    /* gap: 0px; */
+    background-color: orange;
+}
+input{
+    color: black;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 40px;
+    width: 300px;
+    background-color: orange;
+}
+.bknwbtn{
+    height: 40px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+i
+{
+    margin-left: 30px;
+}
+/* ------home page------ */
+.home{
+    /* margin-top: 100px; */
+    margin-left: 790px;
+    margin-top: 130px;
+    border-radius: 2px solid yellow;
+    /* margin-bottom: -400px; */
+    background: linear-gradient(rgb(193, 219, 41),rgb(192, 206, 115));
+    /* color: rgb(206, 228, 45); */
+    position: absolute;
+}
+.video{
+    /* display: flex; */
+    margin-top: 40px;
+    margin-left: 120px;
+
+    width: 500px;
+    height: 550px;
+    box-shadow: 20px rgb(197, 50, 34);
+    position: absolute;
+
+}
+.q{
+    font-weight: bold;
+    top: -90px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.homeimg{
+    background-image: url('./img/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 90px 80px;
+    width: 80%;
+    height: 366;
+    /* position: absolute; */
+}
+.aboutnav{
+    /* top: -1px; */
+    position: absolute;
+    margin-top: -99px;
+    margin-right: -101px;
+    margin-left: -109px;
+    text-align: left;
+}
+.a{
+    margin-left: 690px;
+    margin-right: 50px;
+}
+/* feature */
+.featurenav{
+    top: -1px;
+    margin-left: -40px;
+    margin-right: -40px;
+    text-align: left;
+}
+ .feature{ 
+     /* margin-left: 0px; */
+     margin-top: 150px;
+     margin-bottom: 20px;
+     color: rgb(35, 30, 30);
+     position: relative;
+
+}
+.fbdyimg{
+    border-radius: 10px  solid red;
+    margin-left: 550px;
+    height: 650px;
+    width: 60%;
+    top: 90px;
+    margin-top: 1px;
+    position: absolute;
+}
+.FOD{
+        /* top: -0px; */
+        margin-top: -20px;
+    /* text-align: right; */
+    margin-left: 550px;
+    color: black;
+}
+.fimg{
+    margin-top: -19px;
+    width: 500px;
+    height: 350px;
+}
+.subftr1{
+    padding-bottom: 25px;
+    margin-top: 10px;
+    text-align: center;
+    /* color: wheat; */
+    /* background: linear-gradient(yellow,green); */
+}
+.subftr3{
+    padding-top: -95px;
+    margin-top: -350px;
+    text-align: right;
+    /* position: fixed; */
+}
+.subftr2{
+    padding-bottom: 25px;
+    margin-top: 10px;
+    text-align: right;
+}
+.subftr4{
+    padding-top: 25px;
+    margin-top: -10px;
+    text-align: center;
+}
+/* menu */
+.menu{
+    text-align: left;
+    margin-left: 600px;
+    margin-top: -10px;
+    /* position: relative; */
+    color: rgb(171, 224, 91);
+}
+.keyftr{
+    top: -10px;
+    text-align: left;
+    margin-bottom: -10px;
+    color: rgb(194, 216, 121);
+    font-size: 45px;
+    font-family: 'Concert One', cursive;
+}
+.menubar{
+    /* background-color: rgb(219, 211, 211); */
+    background:none;
+    /* text-align: right; */
+    /* top: -260px; */
+    width: 300px;
+    text-align: center;
+    margin-top: -400px;
+    height: 650px;
+    position: absolute;
+}
+.menuburgerimg{
+    position:absolute;
+    margin-bottom: 100px;
+    height: 800px;
+}
+.menulist{
+    /* background-color: rgb(213, 178, 178); */
+    margin-top: 10px;
+    font-size: 36px;
+    height: 20px;
+    margin-right: -2px;
+    /* text-align: left; */
+    margin-left: -1px;
+position:relative;
+}
+/* .grid1{
+    grid-row: 100px;
+    background-color: rgb(101, 73, 73);
+} */
+h6:hover{
+    background-color: rgb(220, 207, 16);
+    color: rgb(46, 43, 43);
+    width: 300px;
+    height: -90px;
+    /* font-size: 16px; */
+    margin-left: -39px;
+    text-align: center;
+    /* background: red; */
+}
+/*----------------------------------------------------- menuburger */
+.menuburger{
+position: relative;
+text-align: end;
+margin-right: 100px;
+color: rgb(29, 63, 51);
+font-size: 25px;
+}
+.menuburimg{
+    margin-top: 60px;
+    width: 50%;
+    height: 520px;
+    margin-right: 60px;
+    position: absolute;
+}
+#menubtn{
+    margin-top: 100px;
+    margin-left: 800px;
+    border-radius: 6px;
+    width: 130px;
+    background: f;
+    height: 45px;
+    color: rgb(208, 43, 43);
+    background-color: rgb(229, 166, 49);
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(191, 230, 199);
+}
+/* button:hover{
+    color: black;
+    background: none;
+} */
+#menuhead{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -0px;
+    background-color: rgb(161, 165, 153);
+}
+.menunav{
+    top: -1px;
+    text-align: right; 
+}
+/* -----------------------------------------contact */
+.contact{
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    color: black;
+}
+h4{
+    /* display: inline; */
+}
+.contactlist{
+    height: 200px;
+    background-color: rgb(211, 201, 188);
+}
+#address{
+    margin-right: 900px;
+    top: -10px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#email{
+    margin-top: 40px;
+    margin-right: 10px;
+    top: -18px;
+    font-size: 25px;
+}
+
+.eboth{
+    margin-right: 270px;
+
+    margin-top: -154px;
+}
+#call{
+    margin-bottom: -10px;
+    margin-left: 30px;
+    margin-top: -155px;
+}
+.cboth{
+    margin-left: 250px;
+    font-size: 33px;
+    margin-top: -10px;
+}
+#follow{
+    margin-bottom: -50px;
+}
+.fboth{
+    margin-left: 750px;
+    margin-top: -150px;
+    font-size: 33px;
+}
+.message{
+    display: inline;
+    text-align: right;
+  /* background-color: black; */
+}
+#message{
+    background: none;
+}
+.footer{
+    margin-left: 2px;
+    font-size: 14px;
+    background-color: rgb(230, 206, 134);
+    height: 400px;
+    margin-top: 70px;
+}
+#footerlist1{
+    margin-left: 150px;
+}
+#footerlist2{
+    /* top: -200px; */
+    margin-top:-299px;
+    margin-left: 600px;
+}
+#footerlist3{
+    margin-top:-285px;
+    margin-left: 980px;
+}
+.submitbtn{
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    background: linear-gradient(orange,yellow);
+}
